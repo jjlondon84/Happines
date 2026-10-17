@@ -433,7 +433,6 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     margin-bottom: 25px;
     border-radius: 8px;
-    overflow: hidden;
     line-height: 0;
 }
 
@@ -503,5 +502,164 @@ body {
 .once8 {
     height: 16px;
     display: block;
+}
+@media (min-width: 1280px) {
+    .uno1,
+    .dos1,
+    .cuatro1,
+    .siete1,
+    .ocho1,
+    .nueve1,
+    .once1 {
+        max-width: 1140px;
+    }
+    .tres1,
+    .cinco1 {
+        max-width: 1040px;
+    }
+}
+@media (max-width: 1279px) {
+    .tres1,
+    .cinco1 {
+        padding: 30px;
+    }
+    .dos {
+        padding-bottom: 140px;
+    }
+}
+@media (max-width: 920px) {
+    .dos1,
+    .cuatro1,
+    .siete1,
+    .ocho1,
+    .nueve1 {
+        gap: 30px;
+    }
+    .dos5,
+    .cuatro3,
+    .ocho3 {
+        font-size: 44px;
+    }
+    .nueve8 {
+        font-size: 42px;
+    }
+    .siete5 {
+        font-size: 40px;
+    }
+    .tres1 {
+        gap: 25px;
+        transform: translateY(-30%);
+        margin-bottom: -30px;
+    }
+    .tres6,
+    .tres7 {
+        width: 100px;
+    }
+    .cinco8 {
+        width: 95px;
+    }
+    .dos {
+        padding-top: 60px;
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 768px) {
+    .uno1 {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .uno4 {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dos1,
+    .cuatro1,
+    .siete1,
+    .ocho1,
+    .nueve1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .dos5,
+    .cuatro3,
+    .siete5,
+    .ocho3,
+    .nueve8 {
+        font-size: 38px;
+    }
+    .tres1 {
+        flex-direction: column;
+        transform: none;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+    .tres5 {
+        justify-content: center;
+    }
+    .cinco1 {
+        flex-direction: column;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .cinco7 {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .nueve2 {
+        width: 100%;
+        max-width: 500px;
+    }
+    .nueve7 {
+        text-align: center;
+    }
+    .once4 {
+        justify-content: space-around;
+        gap: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .uno4 {
+        gap: 12px;
+    }
+    .uno4 a {
+        font-size: 13px;
+    }
+    .dos5,
+    .cuatro3,
+    .siete5,
+    .ocho3,
+    .nueve8 {
+        font-size: 32px;
+    }
+    .tres3,
+    .cinco5,
+    .seis2,
+    .diez2 {
+        font-size: 30px;
+    }
+    .nueve3 {
+        flex-direction: column;
+        gap: 0;
+    }
+    .tres1,
+    .cinco1,
+    .nueve2 {
+        padding: 20px 16px;
+    }
+    .tres5 {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .once5 {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .diez {
+        padding: 40px 15px 45px;
+    }
 }
 
